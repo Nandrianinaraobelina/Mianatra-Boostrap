@@ -1,0 +1,91 @@
+<!--
+
+IRETO AVY IREO CLASS MATETIKA SY ILAINA
+
+
+RESAKA PREFIXE:
+| Préfixe | Taille min. d’écran | Exemple           | Explication                                                |
+| ------- | ------------------- | ----------------- | ---------------------------------------------------------- |
+| `sm:`   | ≥ **640px**         | `sm:text-red-500` | S’applique à partir des écrans petits (smartphones larges) |
+| `md:`   | ≥ **768px**         | `md:bg-blue-500`  | Moyens écrans (tablettes)                                  |
+| `lg:`   | ≥ **1024px**        | `lg:text-xl`      | Grands écrans (ordinateurs portables)                      |
+| `xl:`   | ≥ **1280px**        | `xl:p-10`         | Très grands écrans (écrans larges)                         |
+| `2xl:`  | ≥ **1536px**        | `2xl:text-3xl`    | Écrans très larges ou TV                                   |
+
+
+Les classes de position et espacement (m, p, x, y, etc.)
+
+| Classe                 | Signification                     | Exemple | Effet                                        |
+| ---------------------- | --------------------------------- | ------- | -------------------------------------------- |
+| `m`                    | **margin (tous côtés)**           | `m-4`   | Ajoute une marge de 1rem sur tous les côtés  |
+| `mx`                   | **margin horizontale (x-axis)**   | `mx-2`  | Marge gauche et droite                       |
+| `my`                   | **margin verticale (y-axis)**     | `my-6`  | Marge haut et bas                            |
+| `mt`                   | **margin top**                    | `mt-2`  | Marge en haut                                |
+| `mb`                   | **margin bottom**                 | `mb-4`  | Marge en bas                                 |
+| `ml`                   | **margin left**                   | `ml-3`  | Marge à gauche                               |
+| `mr`                   | **margin right**                  | `mr-3`  | Marge à droite                               |
+| `p`                    | **padding (tous côtés)**          | `p-4`   | Ajoute un padding interne sur tous les côtés |
+| `px`                   | **padding horizontal**            | `px-6`  | Padding gauche et droite                     |
+| `py`                   | **padding vertical**              | `py-2`  | Padding haut et bas                          |
+| `pt`, `pb`, `pl`, `pr` | Padding haut, bas, gauche, droite | `pt-5`  | etc.                                         |
+
+
+Les classes les plus utiles par catégorie
+
+| Classe                                     | Effet                   |
+| ------------------------------------------ | ----------------------- |
+| `text-sm`, `text-lg`, `text-xl`…           | Taille du texte         |
+| `font-bold`, `font-semibold`, `font-light` | Épaisseur               |
+| `text-center`, `text-left`, `text-right`   | Alignement              |
+| `text-gray-500`, `text-blue-600`           | Couleur du texte        |
+| `uppercase`, `lowercase`, `capitalize`     | Transformation du texte |
+
+
+
+Couleurs & arrière-plan
+
+
+| Classe                                  | Effet                |
+| --------------------------------------- | -------------------- |
+| `bg-red-500`, `bg-blue-200`             | Couleur de fond      |
+| `hover:bg-blue-600`                     | Changement au survol |
+| `text-white`                            | Couleur du texte     |
+| `border`, `border-gray-300`, `border-2` | Bordures             |
+| `rounded`, `rounded-lg`, `rounded-full` | Coins arrondis       |
+| `shadow`, `shadow-lg`, `shadow-xl`      | Ombre portée         |
+
+
+
+Disposition / Layout
+
+
+| Classe                                                 | Effet                     |
+| ------------------------------------------------------ | ------------------------- |
+| `flex`, `inline-flex`, `grid`, `block`, `inline-block` | Type d’affichage          |
+| `justify-center`, `justify-between`                    | Alignement horizontal     |
+| `items-center`, `items-start`                          | Alignement vertical       |
+| `gap-4`                                                | Espace entre les éléments |
+| `w-full`, `w-1/2`, `h-screen`                          | Largeur / hauteur         |
+| `hidden`, `block`, `inline`                            | Affichage / masquage      |
+
+
+ohatra: Responsive combiné
+
+
+<div class="p-2 sm:p-4 md:p-6 lg:p-8">
+<div class="p-2 sm:p-4 md:p-6 lg:p-8">
+   Padding augmente selon la taille de l’écran
+</div>
+
+<p class="text-sm sm:text-base md:text-lg lg:text-xl">
+  Texte qui grandit sur écrans plus larges
+</p>
+
+<div class="hidden md:block">
+   Visible seulement à partir de 768px 
+</div>
+
+
+
+
+-->
