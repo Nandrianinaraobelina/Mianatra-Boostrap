@@ -8,6 +8,94 @@
     <title>FLEX-BOX</title>
 </head>
 <body>
-    
+    <div class="container bg-black pb-5 mt-5 ">
+        <p class="p-2 bg-primary text-white">1 sans flex</p>
+        <p class="p-2 bg-secondary text-white">2 sans flex</p>
+        <p class="p-2 bg-danger text-white">3 sans flex</p>
+    </div>
+
+    <div class="container bg-black pb-5 mt-5 d-flex ">
+        <p class="p-2 bg-primary text-white">1  avec d-flex seulment </p>
+        <p class="p-2 bg-secondary text-white">2 avec d-flex seulment/p>
+        <p class="p-2 bg-danger text-white">3 avec d-flex seulment </p>
+    </div>
+
+    <div class="container bg-black pb-5 mt-5 d-flex flex-row-reverse">
+        <p class="p-2 bg-primary text-white">1 avec: d-flex flex-row-reverse</p>
+        <p class="p-2 bg-secondary text-white">2 avec: d-flex flex-row-reverse</p>
+        <p class="p-2 bg-danger text-white">3 avec: d-flex flex-row-reverse</p>
+    </div>
+
+    <div class="container bg-black pb-5 mt-5  d-flex flex-column">
+        <p class="p-2 bg-primary text-white">1 avec: d-flex flex-column</p>
+        <p class="p-2 bg-secondary text-white">2 avec: d-flex flex-column</p>
+        <p class="p-2 bg-danger text-white">3 avec: d-flex flex-column</p>
+    </div>
+
+    <div class="container bg-black pb-5 mt-5  d-flex flex-column-reverse">
+        <p class="p-2 bg-primary text-white">1 avec: d-flex flex-column-reverse</p>
+        <p class="p-2 bg-secondary text-white">2 avec:d-flex flex-column-reverse</p>
+        <p class="p-2 bg-danger text-white">3 avec: d-flex flex-column-reverse</p>
+    </div>
+    <div class="container bg-black pb-5 mt-5 d-flex flex-wrap ">
+        <p class="w-50 p-5 bg-primary text-white">1 avec:d-flex flex-wrap</p>
+        <p class=" w-50 p-5 bg-secondary text-white">2 avec:d-flex flex-wrap</p>
+        <p class=" w-50 p-5 bg-danger text-white">3 avec: d-flex flex-wrap</p>
+    </div>
+    <div class="container bg-black pb-5 mt-5 d-flex  justify-content-start ">
+        <p class="w-35 p-5 bg-primary text-white">1 avec:d-flex flex-wrap</p>
+        <p class=" w-35 p-5 bg-secondary text-white">2 avec:d-flex flex-wrap</p>
+        <p class=" w-35 p-5 bg-danger text-white">3 avec: d-flex flex-wrap</p>
+    </div>
+
 </body>
 </html>
+
+
+
+<!--
+ACTIVE FLEX BOX:
+
+| Classe           | Effet                                              |
+| ---------------- | -------------------------------------------------- |
+| `.d-flex`        | Active Flexbox (`display: flex`)                   |
+| `.d-inline-flex` | Active un flex **inline** (`display: inline-flex`) |
+
+
+FAMPIASANA DIRECTION:
+
+| Classe                 | Effet                                                      |
+| ---------------------- | ---------------------------------------------------------- |
+| `.flex-row`            | Direction **horizontale (gauche → droite)** *(par défaut)* |
+| `.flex-row-reverse`    | Inverse l’ordre horizontal                                 |
+| `.flex-column`         | Direction **verticale (haut → bas)**                       |
+| `.flex-column-reverse` | Inverse l’ordre vertical                                   |
+
+
+Alignement horizontal (justify-content-...)
+
+| Classe                     | Description                    |
+| -------------------------- | ------------------------------ |
+| `.justify-content-start`   | Aligne à gauche                |
+| `.justify-content-end`     | Aligne à droite                |
+| `.justify-content-center`  | Centre horizontalement         |
+| `.justify-content-between` | Espace égal entre les éléments |
+| `.justify-content-around`  | Espace autour des éléments     |
+| `.justify-content-evenly`  | Espacement égal entre tous     |
+
+
+
+Alignement vertical (align-items-...)
+
+
+| Classe                  | Description                          |
+| ----------------------- | ------------------------------------ |
+| `.align-items-start`    | Aligne en haut                       |
+| `.align-items-end`      | Aligne en bas                        |
+| `.align-items-center`   | Centre verticalement                 |
+| `.align-items-baseline` | Aligne sur la ligne de base du texte |
+| `.align-items-stretch`  | Étire pour remplir la hauteur        |
+
+
+
+-->
