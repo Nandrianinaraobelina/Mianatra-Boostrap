@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="alert alert-primary alert-dismissible fade show ">
+            Message d'alerte <a href="http://127.0.0.1:5500/13-ombres.html">Cliquer le lien</a>
+            <button class="btn-close"  data-bs-dismiss="alert" aria-label="Close" ></button>
+        </div>
+        <div class="alert alert-success alert-dismissible">
+            Message d'alerte <a href="http://127.0.0.1:5500/13-ombres.html">Cliquer le lien</a>
+            <button class="btn-close"  data-bs-dismiss="alert" aria-label="Close" ></button>
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+            Message d'alerte <a href="http://127.0.0.1:5500/13-ombres.html">Cliquer le lien</a>
+            <button class="btn-close"  data-bs-dismiss="alert" aria-label="Close" ></button>
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+            Message d'alerte <a href="http://127.0.0.1:5500/13-ombres.html">Cliquer le lien</a>
+            <button class="btn-close"  data-bs-dismiss="alert" aria-label="Close" ></button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--
+COULEUR DISPONIBLE:
+
+| Type d’alerte | Classe Bootstrap  | Exemple                       |
+| ------------- | ----------------- | ---------------------------   |
+| Primaire      | `alert-primary`   | 🔵 Information principale    |
+| Secondaire    | `alert-secondary` | ⚫ Ton neutre                |
+| Succès        | `alert-success`   | 🟢 Action réussie            |
+| Danger        | `alert-danger`    | 🔴 Erreur / alerte critique  |
+| Avertissement | `alert-warning`   | 🟡 Attention                 |
+| Information   | `alert-info`      | 🔷 Info simple               |
+| Clair         | `alert-light`     | ⚪ Fond clair                |
+| Sombre        | `alert-dark`      | ⚫ Fond sombre               |
+
+
+
+.alert-dismissible : pour permettre la fermeture
+
+.fade + .show : pour l’effet de transition
+
+.btn-close : bouton pour fermer l’alerte
+
+
+
+
+RESAKA FERMETURES:
+
+| Élément   | Attribut                      | Action                   |
+| --------- | ----------------------------- | ------------------------ |
+| Modal     | `data-bs-dismiss="modal"`     | Ferme une fenêtre modale |
+| Offcanvas | `data-bs-dismiss="offcanvas"` | Ferme le menu latéral    |
+| Toast     | `data-bs-dismiss="toast"`     | Ferme un toast           |
+| Alert     | `data-bs-dismiss="alert"`     | Ferme une alerte         |
+
+
+
+ILAINA IHANY ITY:
+
+| Attribut          | Sert à…                                               | Nécessite JavaScript ? | Visible ? |
+| ----------------- | ----------------------------------------------------- | ---------------------- | --------- |
+| `data-bs-dismiss` | Dire à Bootstrap quoi fermer (`alert`, `modal`, etc.) |  Oui                   |  Non      |
+| `aria-label`      | Décrire le rôle du bouton pour l’accessibilité        |  Non                   |  Non      |
+
+
+-->
